@@ -7,7 +7,7 @@ const AdminHome = () => {
     const { user } = useContext(AuthContext)
 
     let { refetch, data: status = {} } = useQuery(["admin-status"], async () => {
-        let res = await fetch("http://localhost:5000/admin-status")
+        let res = await fetch("https://bistro-boss-project-server.vercel.app/admin-status")
         return res.json()
     })
     let rev=status?.revenue?.toFixed(2)

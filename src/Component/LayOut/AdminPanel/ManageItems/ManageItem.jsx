@@ -8,7 +8,7 @@ const ManageItem = () => {
     // all menu get admin tenStack Query
 
     let { refetch, data: items = [] } = useQuery(["menus"], async () => {
-        let res = await fetch("http://localhost:5000/menus")
+        let res = await fetch("https://bistro-boss-project-server.vercel.app/menus")
         return res.json()
     })
 
@@ -16,7 +16,7 @@ const ManageItem = () => {
 
     let handleDeleteMenu=(id)=>{
 
-        fetch(`http://localhost:5000/menus/${id}`,{
+        fetch(`https://bistro-boss-project-server.vercel.app/menus/${id}`,{
             method:"DELETE",
         })
         .then(res=> res.json())

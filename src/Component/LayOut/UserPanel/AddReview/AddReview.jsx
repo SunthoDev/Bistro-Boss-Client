@@ -22,7 +22,7 @@ const AddReview = () => {
         let details=event.target.details.value
         let review={email,liked,suggestion,details}
 
-        fetch("http://localhost:5000/addReview",{
+        fetch("https://bistro-boss-project-server.vercel.app/addReview",{
             method:"POST",
             headers:{
                 "content-type":"application/json"

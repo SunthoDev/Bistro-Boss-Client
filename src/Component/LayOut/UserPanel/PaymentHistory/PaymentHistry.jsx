@@ -11,7 +11,7 @@ const PaymentHistry = () => {
     let {user}=useContext(AuthContext)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/paymentHistory?email=${user.email}`)
+        fetch(`https://bistro-boss-project-server.vercel.app/paymentHistory?email=${user.email}`)
             .then(res => res.json())
             .then(data => setHistory(data))
     }, [])

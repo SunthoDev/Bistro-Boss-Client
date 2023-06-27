@@ -65,7 +65,7 @@ const Login = () => {
 
                 let loggedUser = result.user
                 let saveUser={name : loggedUser.displayName , email:loggedUser.email}
-                fetch("http://localhost:5000/users", {
+                fetch("https://bistro-boss-project-server.vercel.app/users", {
                     method: "POST",
                     headers: {
                         "content-type": "application/json"

@@ -12,7 +12,7 @@ let useAdmin=()=>{
 
         queryKey: ["userAdmin" , user?.email],
         queryFn: async () => {
-            const response=await fetch(`http://localhost:5000/userAdmin/${user.email}`,{
+            const response=await fetch(`https://bistro-boss-project-server.vercel.app/userAdmin/${user.email}`,{
                 headers:{
                     authorization: `bearer ${token}`
                 }

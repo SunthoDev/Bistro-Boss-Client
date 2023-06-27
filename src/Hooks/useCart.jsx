@@ -13,7 +13,7 @@ import { AuthContext } from '../Component/AuthoncationSystem/AuthProvider/AuthPr
 
         queryKey: ["addCard" , user?.email],
         queryFn: async () => {
-            const response=await fetch(`http://localhost:5000/addCard?email=${user.email}`,{
+            const response=await fetch(`https://bistro-boss-project-server.vercel.app/addCard?email=${user.email}`,{
                 headers:{
                     authorization: `bearer ${token}`
                 }

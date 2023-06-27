@@ -8,7 +8,7 @@ const AllUser = () => {
     // user data all find use tenStack query 
 
     let { refetch, data: users = [] } = useQuery(["users"], async () => {
-        let res = await fetch("http://localhost:5000/users",{
+        let res = await fetch("https://bistro-boss-project-server.vercel.app/users",{
             headers:{
                 authorization: `bearer ${localStorage.getItem("accessToken")}`
             }
@@ -20,7 +20,7 @@ const AllUser = () => {
 
     // user update admin
     let handleMakeAdmin=(user)=>{
-        fetch(`http://localhost:5000/users/admin/${user._id}`,{
+        fetch(`https://bistro-boss-project-server.vercel.app/users/admin/${user._id}`,{
             method:"PATCH",
         })
         .then(res=> res.json())
@@ -34,7 +34,7 @@ const AllUser = () => {
 
     // user delete admin
     const handleDeleteUser=(user)=>{
-        fetch(`http://localhost:5000/usersDelete/${user._id}`,{
+        fetch(`https://bistro-boss-project-server.vercel.app/usersDelete/${user._id}`,{
             method:"DELETE",
         })
         .then(res=> res.json())

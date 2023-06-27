@@ -11,7 +11,7 @@ const UserHome = () => {
     let [status,setStatus]=useState([])
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/user-status?email=${user.email}`)
+        fetch(`https://bistro-boss-project-server.vercel.app/user-status?email=${user.email}`)
         .then(res=> res.json())
         .then(data=> setStatus(data))
     },[])

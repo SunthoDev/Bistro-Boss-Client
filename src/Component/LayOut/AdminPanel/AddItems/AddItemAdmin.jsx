@@ -30,7 +30,7 @@ const AddItemAdmin = () => {
 
                 // TODO__(plm)__verify jwt jano ke kore header token patavo 
 
-                fetch("http://localhost:5000/menus",{
+                fetch("https://bistro-boss-project-server.vercel.app/menus",{
                     method:"POST",
                     headers:{
                         "content-type": "application/json"

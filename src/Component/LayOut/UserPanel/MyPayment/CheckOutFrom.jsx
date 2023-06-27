@@ -22,7 +22,7 @@ const CheckOutFrom = ({ price , carts}) => {
 
     useEffect(() => {
         if (price > 0) {
-            fetch('http://localhost:5000/create-payment-intent', {
+            fetch('https://bistro-boss-project-server.vercel.app/create-payment-intent', {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
@@ -104,7 +104,7 @@ const CheckOutFrom = ({ price , carts}) => {
                 menuItems: carts.map(item => item.itemId),
                 status: 'approved',
             }
-            fetch("http://localhost:5000/payment" , {
+            fetch("https://bistro-boss-project-server.vercel.app/payment" , {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

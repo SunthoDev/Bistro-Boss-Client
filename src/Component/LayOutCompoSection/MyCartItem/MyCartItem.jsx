@@ -23,7 +23,7 @@ const MyCartItem = ({ infos, index }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/addCard/${id}`, {
+                fetch(`https://bistro-boss-project-server.vercel.app/addCard/${id}`, {
                     method: "DELETE",
                 })
                     .then(res => res.json())
