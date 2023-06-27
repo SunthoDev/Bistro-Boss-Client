@@ -1,0 +1,35 @@
+
+.logo .one {
+    font-size: 21px;
+    font-family: emoji;
+    font-weight: 600;
+    color: white;
+}
+.logo .tow {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 16px;
+}
+.navbar li a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.shopIcons i {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    line-height: 48px;
+    font-size: 26px;
+    color: white;
+}
+.shopIcons .notifaction {
+    bottom: -4px;
+    right: -11px;
+}

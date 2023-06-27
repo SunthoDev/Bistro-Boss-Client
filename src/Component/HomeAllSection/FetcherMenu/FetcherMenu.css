@@ -1,0 +1,50 @@
+.title {
+    text-align: center;
+}
+
+.title p {
+    color: #d99904;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.title h3 {
+    border-top: 3px solid #E8E8E8;
+    border-bottom: 3px solid #E8E8E8;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+
+.feature {
+    background-image: url("../../../assets//home/featured.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.feature .parent .img {
+
+    width: 100%;
+    height: 200px;
+}
+
+.feature .parent .img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.reedMore {
+    background-color: #e8e8e800;
+    padding: 11px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border-bottom: 2px solid white;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 12px;
+    transition: .4s;
+}

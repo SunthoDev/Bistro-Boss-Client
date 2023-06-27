@@ -1,0 +1,71 @@
+.title{
+    text-align: center;
+}
+.title p {
+    color: #d99904;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.title h3 {
+    border-top: 3px solid #E8E8E8;
+    border-bottom: 3px solid #E8E8E8;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+
+
+
+.hedInfo h2 {
+    font-size: 26px;
+    font-family: emoji;
+    font-weight: 700;
+}
+.hedInfo h3{
+    font-size: 26px;
+    font-family: emoji;
+    font-weight: 700;
+}
+.hedInfo button {
+    background-color: #d1a054;
+    color: white;
+    padding: 6px 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: fangsong;
+}
+
+
+
+
+.Header {
+    background-color: #d1a054;
+    padding: 10px 0;
+    width: 100%;
+}
+.Header th {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: auto;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.AdminBtn{
+    color: white;
+    background-color: #d1a054;
+    padding: 12px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,15 @@
+.favoriteFood {
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    font-weight: 600;
+    transition: .4s;
+}
+.favoriteFood:hover{
+
+    background-color: black;
+    color: white;
+
+}

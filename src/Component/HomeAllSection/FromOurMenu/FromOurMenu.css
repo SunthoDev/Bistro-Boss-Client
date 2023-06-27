@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+}
+
+.title p {
+    color: #d99904;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.title h3 {
+    border-top: 3px solid #E8E8E8;
+    border-bottom: 3px solid #E8E8E8;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+
+
+
+.fullRecipe {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 25px auto;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 0;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.contact{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+.contact h2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact h2 span {
+    font-family: fantasy;
+    letter-spacing: 7px;
+    margin-left: 9px;
+}

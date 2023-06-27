@@ -1,0 +1,15 @@
+.AddCaryButton {
+    background-color: #E8E8E8;
+    padding: 11px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #BB8506;
+    border-bottom: 2px solid #BB8506;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 12px;
+    transition: .4s ;
+}
+.AddCaryButton:hover{
+    background-color: black;
+}
